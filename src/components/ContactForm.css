@@ -1,0 +1,55 @@
+.contact-form-containerf {
+  background-color: #23232b;
+  padding: 20px;
+  color: white;
+  max-width: 100%;
+  margin: auto;
+}
+
+.contact-form-containerf h2,
+.contact-form-containerf p {
+  text-align: center;
+}
+
+.input-groupf {
+  margin-bottom: 15px;
+}
+
+.input-groupf label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-groupf input,
+.input-groupf textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.input-groupf input:focus,
+.input-groupf textarea:focus {
+  outline: none;
+}
+
+.bf {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.bf:hover {
+  background-color: transparent;
+  border: 1px solid orange;
+}

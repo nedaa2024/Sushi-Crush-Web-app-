@@ -1,0 +1,120 @@
+body {
+  /* font-family: 'Work Sans', sans-serif; */
+
+  font-family: cursive;
+}
+
+.logo {
+  height: 130px;
+  width: 180px;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+input::placeholder {
+  color: #ffeb3b !important; /* Change 'red' to your desired color */
+  /* This is to ensure full opacity in Firefox */
+}
+.inner-text {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  color: white;
+}
+/* Add this CSS to your index.css file */
+.navbar-nav .dropdown-menu a {
+  transition: 0.5s;
+}
+.im {
+  background-image: url("../imges/land.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-nav .dropdown-menu a:hover,
+.navbar-nav .dropdown-menu a:focus {
+  background-color: rgba(
+    255,
+    166,
+    0,
+    0.181
+  ); /* This is a light grey color, you can change it to any color you prefer */
+}
+.navbar-nav a {
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav a:hover,
+  .navbar-nav a:focus {
+    background-color: rgba(
+      255,
+      166,
+      0,
+      0.181
+    ); /* This is a light grey color, you can change it to any color you prefer */
+  }
+  div#navbarNavDropdown {
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    color: black !important;
+    padding: 5px 20px;
+    border-radius: 15px;
+    width: 2%;
+  }
+  a.nav-link.n {
+    color: black !important;
+  }
+  input.form-control.me-2 {
+    border: black 0.5px solid !important;
+  }
+  input::placeholder {
+    color: black !important;
+  }
+  div#navbarNavDropdown {
+    margin-right: -37px;
+  }
+  .card-img-top {
+    height: 200px !important;
+  }
+}
+.search:hover {
+  background-color: transparent !important;
+  color: green;
+  margin-top: 10px;
+}
+
+.order {
+  background-color: transparent !important;
+  color: #ffeb3b;
+
+  margin-top: 15px;
+}
+.order:hover {
+  color: white;
+}
+
+a.btn.order.two {
+  color: black;
+  background-color: #ffeb3b !important;
+}
+
+/* Style for the navbar */
+.navbar {
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* .navbar-toggler {
+  background-color: #ffffff40 !important;
+  border: 0.5px white solid;
+} */
+/* Ensure that the container takes the full width */
+/* Base styles for the container and cards */

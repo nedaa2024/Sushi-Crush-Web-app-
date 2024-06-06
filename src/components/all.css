@@ -1,0 +1,22 @@
+.body {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+a.active {
+  text-decoration: none;
+}
+.form-control:focus {
+  box-shadow: 0px 0px 17px 3px rgb(233, 191, 114);
+}
+.search {
+  color: black;
+  background-color: rgb(233, 191, 114);
+  border: none;
+}
+.search:hover {
+  background-color: rgb(233, 191, 114) !important;
+  color: black !important;
+  font-weight: bold;
+}

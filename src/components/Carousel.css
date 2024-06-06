@@ -1,0 +1,69 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-wrapper {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: calc(25% - 10px);
+  margin: 5px;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff33;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.arrow {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 60px;
+  font-size: 40px;
+  color: gold;
+}
+
+.card-img {
+  height: auto;
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px 15px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: calc(33.333% - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 10px);
+  }
+
+  .card-img {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 10px);
+  }
+}
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}

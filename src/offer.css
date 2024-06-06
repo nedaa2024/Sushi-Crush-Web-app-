@@ -1,0 +1,67 @@
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 10px;
+}
+/* ********************** */
+.offers-container {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #0300001a;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* ********************** */
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.card-text {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.slider {
+  width: 80%;
+  max-width: 1000px;
+}
+
+.slide {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,148 @@
+.menu-card {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.menu-card:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .menu-card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 991px) {
+  .img-fluid {
+    height: 300px !important;
+    width: 300px !important;
+    margin-right: 50px;
+  }
+  .itemText {
+    color: #e87d00;
+    font-size: 22px;
+  }
+  .itemsText {
+    color: #653a08;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .itemText {
+    color: #e87d00;
+    font-size: 17px;
+  }
+  .itemsText {
+    color: #653a08;
+    font-size: 15px;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-card img {
+  width: 80px;
+  margin-right: 10px;
+  max-height: 140px !important;
+  height: 80px !important;
+  border-radius: 10px !important;
+  object-fit: cover;
+}
+
+.menu-card .card-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: -19px;
+}
+
+.menu-categories {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  margin-bottom: 45px;
+  flex-wrap: wrap;
+}
+
+.catbtn {
+  background-color: #e87d00;
+  border: none;
+}
+
+.catbtn:hover,
+.catbtn:focus {
+  background-color: transparent !important;
+  border: 1px solid #e87d00 !important;
+}
+
+.dis {
+  font-size: 12px !important;
+  color: antiquewhite;
+  font-weight: lighter !important;
+  margin-bottom: 2px !important;
+}
+
+.row-container {
+  display: flex;
+  overflow-x: hidden;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.menuTitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  padding-top: 53px;
+  font-weight: lighter;
+}
+
+.w-auto {
+  width: auto !important;
+  margin-top: 55px;
+}
+
+.ordernow {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.ordernow:hover {
+  background-color: transparent !important;
+  border: 2px solid orange;
+  color: #653a08;
+}
+
+.price {
+  font-size: 12px;
+  margin-top: 0px;
+  color: #09e309;
+  font-weight: bold;
+}
+
+.prices {
+  margin-top: 55px;
+  color: #09e309;
+}
+.mt-2.p {
+  display: flex;
+  justify-content: space-around;
+}
