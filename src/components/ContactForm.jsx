@@ -23,8 +23,11 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-containerf">
-      <h2 style={{ marginTop: "40px" }}>CONTACT US</h2>
+      <h2 className="c" style={{ marginTop: "40px" }}>
+        CONTACT US
+      </h2>
       <p
+        className="contactText"
         style={{
           letterSpacing: "5px",
           marginBottom: "50px",
