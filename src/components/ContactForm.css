@@ -53,3 +53,16 @@
   background-color: transparent;
   border: 1px solid orange;
 }
+
+@media screen and (max-width: 600px) {
+  .contactText {
+    font-size: 13px;
+  }
+  .contactText {
+    margin-bottom: 30px;
+  }
+  .input-groupf input,
+  .input-groupf textarea {
+    height: 30px;
+  }
+}
