@@ -49,3 +49,8 @@
 .aboutImg {
   object-fit: cover;
 }
+@media screen and (max-width: 600px) {
+  .aboutText {
+    font-size: 15px;
+  }
+}
