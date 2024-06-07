@@ -6,9 +6,9 @@ import { Link as ScrollLink } from "react-scroll";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark ">
-      <div className="container-fluid  " style={{ marginTop: "-30px" }}>
+      <div className="container-fluid  " style={{ marginTop: "-12px" }}>
         <a className="navbar-brand " href="#">
-          <img className="logo" src="../imges/logo.png" alt="" />
+          <img className="logo" src="../imges/logo03.png" alt="" />
         </a>
 
         <button
@@ -20,10 +20,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span
-            className="navbar-toggler-icon"
-            style={{ border: " white 1px solid !important" }}
-          ></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
           className="collapse navbar-collapse justify-content-evenly"
