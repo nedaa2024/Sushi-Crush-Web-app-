@@ -16,7 +16,7 @@ function AboutUs() {
       <div className="content">
         <h1>About Us</h1>
         <p className="tagline">We cook food better!</p>
-        <p>
+        <p className="aboutText">
           Presentations are communication tools that can be used as
           demonstrations, lectures, speeches, reports, and more.
         </p>
