@@ -83,7 +83,6 @@
   }
 
   .cardt {
-    margin-bottom: 10px;
     width: 200px;
   }
 }
@@ -117,4 +116,32 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .cardt {
+    margin: 10px auto 30px auto !important;
+    width: 300px !important;
+    height: 150px !important;
+    padding: 2px 0 2px 0;
+  }
+  .cardt-title {
+    margin-top: 20px !important;
+  }
+  .containe {
+    /* margin-top: 50px; */
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+  }
+}
+
+/* CSS for iPad in portrait orientation */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles go here */
+}
+
+/* CSS for iPad in landscape orientation */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles go here */
 }
