@@ -5,12 +5,16 @@ body {
 }
 
 .logo {
-  height: 130px;
+  height: 80px;
   width: 180px;
 }
+
 .banner {
   width: 100%;
   height: 100vh;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
 input::placeholder {
   color: #ffeb3b !important; /* Change 'red' to your desired color */
@@ -63,11 +67,12 @@ input::placeholder {
   div#navbarNavDropdown {
     background-color: rgb(255, 255, 255);
     z-index: 1;
-    color: black !important;
     padding: 5px 20px;
     border-radius: 15px;
+    border: none !important;
     width: 2%;
   }
+
   a.nav-link.n {
     color: black !important;
   }
@@ -118,3 +123,11 @@ a.btn.order.two {
 } */
 /* Ensure that the container takes the full width */
 /* Base styles for the container and cards */
+@media (max-width: 600px) {
+  .logo {
+    height: 60px;
+    width: 140px;
+    margin-left: -14px;
+    margin-top: 5px;
+  }
+}
