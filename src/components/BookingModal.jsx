@@ -21,24 +21,28 @@ const BookingModal = ({
   };
 
   return (
-    <div className="modal modale">
-      <div className="modal-contente modal-contente">
+    <div className="modal modale b">
+      <div className="modal-contente b">
         <span className="close" onClick={onClose}>
           ×
         </span>
         {card && (
           <>
-            <h2>Booking: {card.title}</h2>
+            <h2 style={{ textAlign: "center" }}>Booking Form </h2>
+            <h4 style={{ textAlign: "center" }}>
+              {card.Number} {card.title}
+            </h4>
             <p style={{ textAlign: "center" }}>{card.text}</p>
           </>
         )}
-        <form className="booking-form" onSubmit={handleSubmit}>
+        <form className="booking-form b" onSubmit={handleSubmit}>
           <input type="date" placeholder="Date" required />
           <input type="time" placeholder="Time" required />
           <input type="text" placeholder="Full Name" required />
           <input type="email" placeholder="Email" required />
           <input type="tel" placeholder="Phone" required />
           <input
+            className="numberOfRoom"
             type="number"
             placeholder="Number of Rooms"
             value={roomCount}
