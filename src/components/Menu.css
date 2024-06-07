@@ -146,3 +146,43 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 610px) {
+  .card-title.h5 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .menu-card img {
+    width: 43px !important;
+    height: 43px !important;
+    border-radius: 0px !important;
+  }
+
+  .dis {
+    font-size: 6px !important;
+  }
+  .menu-card card {
+  }
+  .row-container {
+    padding: 0;
+  }
+  .menu-card {
+    display: flex;
+    /* margin-bottom: 20px; */
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    justify-content: center;
+  }
+  .menu-card.card {
+    margin: 5px 5px 10px 0px !important;
+  }
+  .card-img-top {
+    margin: 0px 10px 7px 0px;
+  }
+  .row-container {
+    margin: 0 auto !important;
+  }
+}
