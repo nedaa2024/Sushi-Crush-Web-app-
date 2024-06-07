@@ -45,7 +45,7 @@ const Menu = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              {index % 6 === 5 && <hr className="menu-divider" />}
+              {/* {index % 6 === 5 && <hr className="menu-divider" />} */}
             </Col>
           ))}
         </Row>
